@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './main/output_file'
+                sh './out'
             }
         }
         stage('Deploy') {
